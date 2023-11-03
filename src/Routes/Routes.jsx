@@ -3,7 +3,8 @@ import FakeStore from '../Pages/FakeStore'
 import Poke from '../Pages/Poke'
 import Rickandmorty from '../Pages/Rickandmorty'
 import Movie from '../Pages/Movie'
-import Marvels from '../Pages/Marvels'
+import Marvel from '../Pages/Marvel'
+
 
 
 export function Hola() {
@@ -13,7 +14,7 @@ export function Hola() {
             <Route path='/poke' element={<Poke/>} />
             <Route path='/rick' element={<Rickandmorty/>}/>
             <Route path='/movie' element={<Movie/>}/>
-            <Route path='/marvels' element={<Marvels/>}/>
+            <Route path='/marvel' element={<Marvel/>}/>
 
         </Routes>
     )

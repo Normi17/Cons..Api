@@ -10,7 +10,7 @@ export function Navbar(){
                 <NavLink to='/poke'><li>Poke</li></NavLink>
                 <NavLink to='/rick'><li>Ricky</li></NavLink>
                 <NavLink to='/movie'><li>MTBMovie</li></NavLink>
-                <NavLink to='/marvels'><li>Marvel</li></NavLink>
+                <NavLink to='/marvel'><li>Marvel</li></NavLink>
             </ul>
         </nav>
         
